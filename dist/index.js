@@ -9353,7 +9353,7 @@ const axios = __nccwpck_require__(8757)
 
 const OPEN_AI_MODEL = "gpt-35-turbo"
 const OPENAI_API = axios.create({
-  baseURL: "https://openaiservice1530839.openai.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2024-02-15-preview",
+  baseURL: "https://openaiservice1530839.openai.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2024-08-01-preview",
   headers: {
     "Content-Type": "application/json",
     "api-key": `${process.env.OPENAI_TOKEN}`,
